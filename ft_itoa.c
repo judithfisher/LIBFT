@@ -6,7 +6,7 @@
 /*   By: jfischer <jfischer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/25 15:49:16 by jfischer          #+#    #+#             */
-/*   Updated: 2023/11/25 22:35:53 by jfischer         ###   ########.fr       */
+/*   Updated: 2025/07/29 14:15:09 by jfischer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ static size_t	ft_intlen(int n)
 char	*ft_itoa(int n)
 {
 	char	*str;
-	size_t	len;
+	int		len;
 
 	len = ft_intlen(n);
 	if (n == -2147483648)
